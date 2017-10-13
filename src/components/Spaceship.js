@@ -5,7 +5,6 @@ export default class Spaceship extends React.Component {
     return (
       <div>
         <h1>Spaceship Name: {name}</h1>
-        <p>Ship Info:</p>
         <p>Speed: {speed}</p>
         <p>Rockets: {hasRockets ? "Yes" : "No"}</p>
         <ul>
